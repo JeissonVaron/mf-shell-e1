@@ -1,0 +1,12 @@
+<single-spa-router>
+  <application name="@jsson-dev/mf-header"></application>
+  <main>
+    <redirect to="/pokemon" from=""></redirect>
+    <route path="/pokemon">
+      <application name="@jsson-dev/mf-pokemon"></application>
+    </route>
+    <route path="/product-catalog">
+      <application name="@jsson-dev/mf-product-catalog"></application>
+    </route>
+  </main>
+</single-spa-router>
